@@ -1,0 +1,116 @@
+
+
+   body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #343a40;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  li {
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  li:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  li button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-info span {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #495057;
+  }
+  
